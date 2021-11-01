@@ -7,6 +7,7 @@
 1. CRUD operation
 2. Database Relationship
 3. JWT authentication
+4. Role based Authorization
 ```
 
 ## Installation
