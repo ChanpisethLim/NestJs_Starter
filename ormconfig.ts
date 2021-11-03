@@ -1,8 +1,12 @@
-import { SqliteConnectionOptions } from "typeorm/driver/sqlite/SqliteConnectionOptions";
+import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
-const config:SqliteConnectionOptions = {
-    type: 'sqlite',
-    database: 'db.sqlite',
+const config: PostgresConnectionOptions = {
+    type: 'postgres',
+    host: 'localhost',
+    port: 5432,
+    username: 'admin',
+    password: 'admin',
+    database: 'test',
     entities: ['dist/src/**/*.entity{.ts,.js}'],
     synchronize: false,
     migrationsRun: false,

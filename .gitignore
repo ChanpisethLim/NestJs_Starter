@@ -2,8 +2,6 @@
 /dist
 /node_modules
 /src/migrations
-db.sqlite
-.env
 
 # Logs
 logs
