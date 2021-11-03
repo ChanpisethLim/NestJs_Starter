@@ -1,8 +1,9 @@
 # compiled output
 /dist
 /node_modules
+/src/migrations
 db.sqlite
-/src/db
+.env
 
 # Logs
 logs
