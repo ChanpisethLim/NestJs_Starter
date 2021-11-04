@@ -12,7 +12,8 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   app.use(cookieParser());
   app.enableCors({
-    credentials: true
+    credentials: true,
+    origin: 'http://35.233.249.232/'
   })
   await app.listen(3000);
 }
